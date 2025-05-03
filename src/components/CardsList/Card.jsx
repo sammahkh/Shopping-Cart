@@ -1,4 +1,4 @@
-const Card = ({ item }) => {
+const Card = ({ item, handleAddToCart }) => {
   const { title, author, price, img } = item;
   return (
     <div className="card">
@@ -9,7 +9,7 @@ const Card = ({ item }) => {
         <p>{title}</p>
         <p>{author}</p>
         <p>Price - {price}Rs</p>
-        <button>Add to Cart</button>
+        <button onClick={() => handleAddToCart(item)}>Add to Cart</button>
       </div>
     </div>
   );
