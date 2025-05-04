@@ -1,8 +1,25 @@
-# React + Vite
+#  Shopping Cart Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly shopping cart interface built with **React**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  **Product Grid**  
+  Displays products in a grid format, showcasing the **name**, **image**, and **price** of each product.
+
+-  **Add to Cart**  
+  Each product has an **"Add to Cart"** button to add the item to the shopping cart.
+
+-  **Cart Details**  
+  A cart section lists all the items currently added, showing their **name**, **image**, and **price**.
+
+-  **Item Removal**  
+  Users can remove individual items from the cart by clicking the **"Remove"** button next to each item.
+
+-  **Total Amount**  
+  Displays the **total price** of all items in the cart, dynamically updated as items are added or removed.
+
+-  **Checkout Form**  
+  Includes a checkout form where users can enter their **name** and **email** to submit an order.
+
+
