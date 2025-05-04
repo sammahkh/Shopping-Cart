@@ -1,7 +1,7 @@
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import "./Navbar.css";
-const Navbar = () => {
+const Navbar = ({size}) => {
   return (
     <nav>
       <div className="nav_box">
@@ -10,7 +10,7 @@ const Navbar = () => {
           <span>
             <FaShoppingCart />
           </span>
-          <span>465</span>
+          <span>{size}</span>
         </div>
       </div>
     </nav>
